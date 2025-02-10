@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double BedragInEuro = 78.55;
+            double BedragInDollar = BedragInEuro * 1.04;
+            Console.WriteLine($"{BedragInEuro}EUR is gelijk aan {BedragInDollar}USD");
         }
     }
 }
